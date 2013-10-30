@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0088)http://us1.campaign-archive2.com/?u=836dc9c64862f158af8a31e20&id=351d7697a6&e=9760023c95 -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+<meta property="og:title" content="Week 7 - Visual Hierarchy">
+<meta property="fb:page_id" content="43929265776">        
+<!-- If you delete this meta tag, Earth will fall into the sun. -->
+<meta name="viewport" content="width=device-width" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+
+
+<title style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">Summer of Design</title>
+	
+
+
+
+
+
+
+<style type="text/css">
+</style>        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            </script><script src="./DesignTrain7_files/ga.js" type="text/javascript"></script>
+            <script type="text/javascript">
+            try {
+                var _gaq = _gaq || [];
+                _gaq.push(["_setAccount", "UA-21952740-1"]);
+                _gaq.push(["_setDomainName", ".campaign-archive.com"]);
+                _gaq.push(["_trackPageview"]);
+                _gaq.push(["_setAllowLinker", true]);
+            } catch(err) {console.log(err);}</script>
+                    <script src="./DesignTrain7_files/jquery.min.js"></script> <script src="./DesignTrain7_files/fancyzoom.mc.js"></script>  <script type="text/javascript">
+    function incrementFacebookLikeCount() {
+        var current = parseInt($('#campaign-fb-like-btn span').html());
+        $('#campaign-fb-like-btn span').fadeOut().html(++current).fadeIn();
+    }
+
+    function getUrlParams(str) {
+        var vars = {}, hash;
+        if (!str) return vars;
+        var hashes = str.slice(str.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++) {
+            hash = hashes[i].split('=');
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+    
+    function setupSocialSharingStuffs() {
+        var numSocialElems = $('a[rel=socialproxy]').length;
+        var numSocialInitialized = 0;
+        var urlParams = getUrlParams(window.document.location.href);
+        var paramsToCopy = {'e':true, 'eo':true};
+        $('a[rel=socialproxy]').each(function() {
+            var href = $(this).attr('href');
+            var newHref = decodeURIComponent(href.match(/socialproxy=(.*)/)[1]);
+            // for facebook insanity to work well, it needs to all be run against just campaign-archive
+            newHref = newHref.replace(/campaign-archive(\d)/gi, 'campaign-archive');
+            var newHrefParams = getUrlParams(newHref);
+            for(var param in urlParams) {
+                if ((param in paramsToCopy) && !(param in newHrefParams)) {
+                    newHref += '&' + param + '=' + urlParams[param];
+                }
+            }
+            $(this).attr('href', newHref);
+            if (href.indexOf('facebook-comment') !== -1) {
+                $(this).fancyZoom({"zoom_id": "social-proxy", "width":620, "height":450, "iframe_height": 450});
+            } else {
+                $(this).fancyZoom({"zoom_id": "social-proxy", "width":500, "height":200, "iframe_height": 500});
+            }
+            numSocialInitialized++;
+                    });
+    }
+	if (window.top!=window.self){
+        $(function() {
+          var iframeOffset = $("#archive", window.parent.document).offset();
+          $("a").each(function () {
+              var link = $(this);
+              var href = link.attr("href");
+              if (href && href[0] == "#") {
+                  var name = href.substring(1);
+                  $(this).click(function () {
+                      var nameElement = $("[name='" + name + "']");
+                      var idElement = $("#" + name);
+                      var element = null;
+                      if (nameElement.length > 0) {
+                          element = nameElement;
+                      } else if (idElement.length > 0) {
+                          element = idElement;
+                      }
+         
+                      if (element) {
+                          var offset = element.offset();
+                          var height = element.height();
+                          //3 is totally arbitrary, but seems to work best.
+                          window.parent.scrollTo(offset.left, (offset.top + iframeOffset.top - (height*3)) );
+                      }
+         
+                      return false;
+                  });
+              }
+          });
+        });
+    }
+</script>  <script type="text/javascript">
+            $(document).ready(function() {
+                setupSocialSharingStuffs();
+            });
+        </script> <style type="text/css">
+            /* Facebook/Google+ Modals */
+            #social-proxy { background:#fff; -webkit-box-shadow: 4px 4px 8px 2px rgba(0,0,0,.2); box-shadow: 4px 4px 8px 2px rgba(0,0,0,.2); padding-bottom:35px; z-index:1000; }
+            #social-proxy_close { display:block; position:absolute; top:0; right:0; height:30px; width:32px; background:transparent url(http://cdn-images.mailchimp.com/awesomebar-sprite.png) 0 -200px; text-indent:-9999px; outline:none; font-size:1px; }
+            #social-proxy_close:hover { background-position:0 -240px; }
+            body { padding-bottom:50px !important; }
+        </style> </head>
+    
+    <body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: none;height: 100%;width: 100%;">
+
+<!-- HEADER -->
+<table class="head-wrap" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;">
+	<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<td class="header container" style="box-sizing: border-box;padding: 5px 21px;text-align: right;font-size: 9px;border-bottom: 1px solid #dedede;margin: 0 auto;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;display: block;max-width: 600px;clear: both;">
+			<a href="http://us1.campaign-archive1.com/?u=836dc9c64862f158af8a31e20&id=351d7697a6&e=9760023c95" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">View this email in your browser</a></td>
+		<td class="header container" style="margin: 0 auto;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;display: block;max-width: 600px;clear: both;">
+				
+				<div class="content" style="margin: 0 auto;padding: 21px 12px;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 600px;display: block;">
+				<table style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;">
+					<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+						<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+							<a href="http://summerofdesign.com/" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;"><img src="./DesignTrain7_files/sod_logo_2X.png" width="238" height="62" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 100%;height: auto;"></a>
+						</td>
+						<td align="right" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"><h6 class="collapse" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;font-weight: bold;line-height: 1.1;margin-bottom: 5px;color: #444;font-size: 12px;text-transform: uppercase;">Week 7 of 12: Visual Hierarchy</h6></td>
+					</tr>
+				</tbody></table>
+				</div>
+				
+		</td>
+		<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"></td>
+	</tr>
+</tbody></table><!-- /HEADER -->
+
+<!-- BODY -->
+<table class="body-wrap" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;">
+	<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"></td>
+		<td class="container" bgcolor="#FFFFFF" style="margin: 0 auto;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;display: block;max-width: 600px;clear: both;">
+			
+			<div class="column-wrap" style="margin: 0 auto;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 600px;">
+				
+				<div class="main-column" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 450px;float: left;">
+				<table style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;">
+				<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+					<td style="padding-bottom: 16px!important;margin: 0;padding: 0 16px;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"><p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	Last week we learned about design principles, and analyzed their presence within a simple component of the Google+ interface. If you haven't yet, I encourage you to check out&nbsp;<a href="https://www.facebook.com/photo.php?fbid=599994983355159&set=a.165184553502873.33507.143365992351396&type=1" target="_self">the comments</a>. Hopefully it's starting to make sense how principles that make a design beautiful can also be used to meet the goals of a design.</p>
+<br>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<strong>Mastering the factors of visual hierarchy</strong></p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	When attempting to make good use of all of these design principles, it can be tempting to try lots of different fonts, colors, rule lines, and effects in a design. But when you do that, boy does it make it hard to keep your design looking right.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	The problem is, each of these little things – the fonts, the colors, the ornamentations and effects – adds a ton of complexity to the visual design equation.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	Before you can learn to run, you have to learn to walk. Before you can use a bunch of different colors, fonts, and effects in a design, you have to learn how to make a design work without any of those things. In fact, after learning this, you may find that you rarely need any of those things anyway.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	Take, for example, this table. Almost any software program that makes tables will, by default, make tables a lot like this:<br>
+	&nbsp;</p>
+<p class="p2">
+	<a href="./DesignTrain7_files/table_lines_2X.png"><img align="none" alt="[turn on your images]" height="194" src="./DesignTrain7_files/table_lines_2X.png" style="width: 250px; height: 194px;" width="250"></a><br>
+	&nbsp;</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<br>
+	It makes sense. All of these rule lines are supposedly there to help guide your eye from one column or row to the next. They're supposedly there to separate the pieces of information from one another.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	But you find that if you completely remove all of these rule lines, you have a table that is not only still functional, but overall has a more "clean" look.<br>
+	&nbsp;</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<a href="./DesignTrain7_files/table_nolines_2X.png"><img align="none" alt="[turn on your images]" height="148" src="./DesignTrain7_files/table_nolines_2X.png" style="width: 200px; height: 148px;" width="200"></a><br>
+	&nbsp;</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	It looks "clean" because there aren't a bunch of superfluous elements in the table. The whitespace between pieces of information and the imaginary lines upon which those pieces of information are organized are enough to guide your eye throughout the table. Notice, however, that the percentages on the table are italicized to differentiate that information.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<br>
+	<b>Visual hierarchy for clean design</b></p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	It's this type of precise thinking about visual elements that separates a design that looks "clean" from a design that looks like a mess. You have to master the individual factors for establishing a visual hierarchy, one at a time.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	Here's a slightly more complex composition, with many different types of information. It's the title, metadata, and summary of a blog post.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<a href="./DesignTrain7_files/whitespace_only_2X.png"><img align="none" alt="[turn on your images]" height="300" src="./DesignTrain7_files/whitespace_only_2X.png" style="border: 1px solid #dddccc; width: 400px; height: 300px;" width="400"></a><br>
+	&nbsp;</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	Notice that it's all the same font, all the same size of type, and all the same color of type. The only factor that is differentiating information is the alignment of elements, and the white space between them. One little trick I've done is to put the title in all caps, and to letterspace those capitals a little bit (only do wide letterspacing like this with capitals, not with lowercase type).</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	In this next composition, I've added a couple more factors. I've picked various sizes of type (based upon the type scale I talked about in week 5), and am now working with various weights of type – I've thrown bold type into the mix. The body copy is arguably too long to be all caps, but hey, I'm working with strict requirements here.</p>
+<p class="p2">
+	<a href="./DesignTrain7_files/size_and_weight_2X.png"><img align="none" alt="[turn on your images]" height="300" src="./DesignTrain7_files/size_and_weight_2X.png" style="border: 1px solid #dddccc; width: 400px; height: 300px;" width="400"></a></p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	Now I can get even more complex by adding the factors of color and ornamentation. Notice I didn't make the title big to make it pop out. I just made it red, and put it really close to the big black bar that you just can't ignore.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<a href="./DesignTrain7_files/ornamentation_2X.png"><img align="none" alt="[turn on your images]" height="300" src="./DesignTrain7_files/ornamentation_2X.png" style="border: 1px solid #dddccc; width: 400px; height: 300px;" width="400"></a><br>
+	<br>
+	<span style="line-height: 1.4;">As I add factors, the possibilities increase exponentially. But is the last composition really that much more effective than the first? When you take into account how much tougher it is to take into account changes in weight, size, color, and ornamentation, the payoff is negligible.</span></p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	I haven't even thrown another typeface into the mix, and this is an unrealistically simple composition. When you're designing complex applications, the possibilities increase yet again, and clarity will suffer if you don't use new factors wisely.<br>
+	&nbsp;</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<b>Keep it simple</b></p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	So, next time you're designing something, and you feel tempted to add another font, another rule line, or even to make something bold or italic – stop. Take some time to play around with the spacing and alignment of things. How can you simplify your decisions and get your point across without a bunch of extra stuff?<br>
+	&nbsp;</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	<b>Extra credit</b></p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	The extra credit you'll get will of course come only in the form of your own learning, but if you'd like to play around with the above composition, here is a <a href="http://gallery.mailchimp.com/836dc9c64862f158af8a31e20/files/hierachy_template.1.pdf" target="_self">PDF template</a> that you can open in Illustrator and play around with.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	If you don't have Illustrator, you can use the program of your choice (Keynote, PowerPoint, Photoshop – whatever) and reconstruct the composition (the canvas has a 3:4 ratio). Just use Helvetica and one size and weight of type, and see how you can change the visual hierarchy just by moving things around. It may be helpful to give yourself a margin on the canvas and construct a grid.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.4;">
+	If you arrive at something you'd like to share with everyone, feel free to post it on the <a href="https://www.facebook.com/pages/Design-For-Hackers/143365992351396" target="_self">D4H Facebook Page</a>.</p>
+</td>
+				</tr>
+			</tbody></table>
+			</div>
+			
+				<div class="right-column" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 150px;float: left;">
+				<table style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;">
+				<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+					<td style="padding-bottom: 16px!important;margin: 0;padding-left: 16px;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+<h4 style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;font-weight: bold;line-height: 1.1;margin-bottom: 5px;color: #000;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;margin-top: 9px;">
+	One-Click Survey</h4>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.1;font-style: italic;">
+	What would you most like to learn?</p>
+<ul style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 28px;font-weight: normal;font-size: 16px;line-height: 1.1;font-style: italic;list-style-type: none;">
+	<li style="margin: 0 0 4px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<a href="http://designforhackers.com/survey-success/?member=hoyajigi@gmail.com&learn=htmlcss" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">Basic HTML/CSS</a></li>
+	<li style="margin: 0 0 4px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<a href="http://designforhackers.com/survey-success/?member=hoyajigi@gmail.com&learn=photoshop" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">Photoshop</a></li>
+	<li style="margin: 0 0 4px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<a href="http://designforhackers.com/survey-success/?member=hoyajigi@gmail.com&learn=uxprocess" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">UX Process</a></li>
+	<li style="margin: 0 0 4px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<a href="http://designforhackers.com/survey-success/?member=hoyajigi@gmail.com&learn=typography" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">Beautiful typography</a></li>
+</ul>
+
+<h4 style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;font-weight: bold;line-height: 1.1;margin-bottom: 5px;color: #000;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;margin-top: 9px;">
+	I'm Teaching!</h4>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 12px;font-weight: normal;font-size: 16px;line-height: 1.1;font-style: italic;">
+	I'm teaching design as part of an 8-week Lean Product Development course by Femgineer. Use the promo code "SoD" to&nbsp;<a href="http://femgineer.com/courses/?d4h=sod" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">Get 20% off.</a></p>
+<h4 class="social" style="margin: 2px 10px 3px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;font-weight: bold;line-height: 1.1;margin-bottom: 12px;color: #000;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;margin-top: 9px;display: block;float: left;text-decoration: none;">
+	Keep in Touch</h4>
+<a href="https://twitter.com/intent/user?user_id=8520" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;"><img alt="kadavy" class="avatar" height="50" src="./DesignTrain7_files/kadavy_grill_2X.png" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 100%;height: auto;float: left;clear: both;margin-right: 12px;" width="50"> </a> <a class="social" href="https://twitter.com/intent/user?user_id=8520" style="margin: 2px 10px 3px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;display: block;float: left;text-decoration: none;"> <img alt="Twitter" height="20" src="./DesignTrain7_files/twitter_chicklet_2X.png" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 100%;height: auto;" width="20"> </a> <a class="social" href="https://www.facebook.com/pages/Design-For-Hackers/143365992351396" style="margin: 2px 10px 3px 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;display: block;float: left;text-decoration: none;"> <img alt="Facebook" height="20" src="./DesignTrain7_files/facebook_chicklet_2X.png" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 100%;height: auto;" width="20"> </a> </td>
+				</tr>
+			</tbody></table>				
+			</div>
+				
+				<div class="clear" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;display: block;clear: both;"></div>			
+			
+			</div>
+
+		</td>
+		<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"></td>
+	</tr>
+</tbody></table><!-- /BODY -->
+
+<!-- FOOTER -->
+<table class="footer-wrap" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;clear: both;">
+	<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+		<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"></td>
+		<td class="container" style="border-top: 1px solid #dedede;margin: 0 auto;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;display: block;max-width: 600px;clear: both;">
+			
+				<!-- content -->
+				<div class="content" style="margin: 0 auto;padding: 21px 12px;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;max-width: 600px;display: block;">
+				<table style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;width: 100%;">
+				<tbody><tr style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">
+					<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"><p style="text-transform: uppercase!important;letter-spacing: 1px!important;margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 9px;font-weight: normal;font-size: 9px;line-height: 1.3;">
+	<a href="http://designforhackers.us1.list-manage2.com/unsubscribe?u=836dc9c64862f158af8a31e20&id=d7534976f7&e=9760023c95&c=351d7697a6" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">Unsubscribe</a> hoyajigi@gmail.com from this list. <a href="http://us1.forward-to-friend.com/forward?u=836dc9c64862f158af8a31e20&id=351d7697a6&e=9760023c95" style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;color: #1476a0;">Forward</a> this email to a friend.</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 9px;font-weight: normal;font-size: 9px;line-height: 1.3;">
+	Kadavy, Inc.
+340 S Lemon Ave
+#4919
+Walnut, CA 91789
+USA</p>
+<p style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;margin-bottom: 9px;font-weight: normal;font-size: 9px;line-height: 1.3;">
+	<em style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;">Copyright (C) 2013 Kadavy, Inc. All rights reserved.</em></p>
+</td>
+				</tr>
+			</tbody></table>
+				</div><!-- /content -->
+				
+		</td>
+		<td style="margin: 0;padding: 0;font-family: Lato, &quot;Lucida Grande&quot;, Arial, sans-serif;"></td>
+	</tr>
+</tbody></table><!-- /FOOTER -->
+
+    
+
+</body></html>
